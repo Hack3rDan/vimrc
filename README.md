@@ -2,7 +2,8 @@
 My vim configuration
 
 INSTALLATION:
-1) .vimrc to ~/.vimrc
+create a symlink in your ~ folder to the .vim/vimrc file
+    Maintain updates through git
 
 2) vundle:
     2a) git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
