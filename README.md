@@ -2,9 +2,12 @@
 My vim configuration
 
 INSTALLATION:
-Copy the contents of this folder to ~/.vim and .vimrc to ~/.vimrc
+1) .vimrc to ~/.vimrc
+
+2) vundle:
+    2a) git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    2b) :PluginInstall
 
 DEPENDENCIES:
-badwolf: https://github.com/sjl/badwolf.git
 gundo: https://github.com/sjl/gundo.vim.git
-pathogen: https://github.com/tpope/vim-pathogen.git
+vundle: https://github.com/VundleVim/Vundle.vim.git
