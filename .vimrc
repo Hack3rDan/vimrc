@@ -1,4 +1,13 @@
-call pathogen#infect()
+"call pathogen#infect()
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'sjl/gundo.vim'
+call vundle#end()
+filetype plugin indent on
+
 " COLORS
 colorscheme badwolf " Colorscheme available from https://github.com/sjl/badwolf.git 
 syntax enable		" Syntax highlighting
