@@ -39,8 +39,17 @@ inoremap jk <esc>
 nnoremap <leader>u :GundoToggle<CR>
 nnoremap <leader>s :w<CR>
 nnoremap <leader>e :q<CR>
-nnoremap <leader>ee :!q<CR>
+nnoremap <leader>ee :q!<CR>
 nnoremap <leader>q :wq<CR>
+" STOP USING ARROW KEYS!!!!
+inoremap <up> <nop>
+nnoremap <up> <nop>
+inoremap <down> <nop>
+nnoremap <down> <nop>
+inoremap <left> <nop>
+nnoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap <right> <nop>
 
 " FOLDING
 set foldenable          " Enables folding
